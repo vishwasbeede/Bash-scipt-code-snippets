@@ -11,8 +11,8 @@ echo  "yyyy-mm-ddThh:mm:ss"
 
 read time11
 
-if [-z time11]
- then
+if [-z $time11]
+ then echo "Please enter data above"
  exit
 fi
 
