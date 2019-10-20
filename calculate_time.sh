@@ -34,5 +34,5 @@ time2=$(date "+%s")
 
 echo "$time2"
 diff=$(( (time2 - time1)/60))
-
+echo "Difference between in minutes are"
 echo "$diff"
