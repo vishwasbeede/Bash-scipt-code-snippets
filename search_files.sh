@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Script used to searchfile in given path and filesize. It display the output file names
-#then it will compress all the files into a backup file to destination
+#Script used to searchfile in given path and filesize and search those files.
+#Wiil be added ----- will compress all searched files into a backup file and move to the given destination
 
 if  [ ! -z "$1" ] && [ "$1" -ge 0 ] || [ -n "$2" ] 
 then 
